@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit 1: Hello World</title>
+    </head>
+    <body>
+        <input type="button" id="Click" value="Click Me"/>
+        <script>
+            //lấy element có id = 'click' gắn vào biến button
+            var button = document.getElementById('Click')
+            //khi click vào element chứa trong button  thì thực hiện 1 function,
+            //bên trong function thông báo Hello World
+            button.addEventListener('click', function(){
+                alert('Hello World')
+            })
+        </script>
+    </body>
+</html>
